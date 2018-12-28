@@ -11,6 +11,6 @@ access_token_secret = "xxxxxxxxxxxxxxxxxxxxxxx"
 
 
 def lambda_handler(event, context):
-        r = event.api.GetSearch('search/tweets', {'q':'JORGINHO'})
+        r = event.api.GetSearch('search/tweets', {'q':'DesafioDE'})
             for item in r:
                         return(item)
